@@ -37,7 +37,7 @@ _emptyContent() {
     this._shadowRoot.innerHTML = '';
 }
 
-conecctedCallback() {
+connectedCallback() {
     this.render();
 }
 
